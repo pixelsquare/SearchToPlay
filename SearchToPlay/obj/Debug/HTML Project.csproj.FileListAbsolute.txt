@@ -1,0 +1,12 @@
+C:\Users\Anthony\Desktop\HTML Project\HTML Project\bin\HTML Project.dll
+C:\Users\Anthony\Desktop\HTML Project\HTML Project\bin\HTML Project.pdb
+C:\Users\Anthony\Desktop\HTML Project\HTML Project\obj\Debug\HTML Project.dll
+C:\Users\Anthony\Desktop\HTML Project\HTML Project\obj\Debug\HTML Project.pdb
+C:\Users\Anthony\Desktop\HTML\HTML Project\HTML Project\bin\HTML Project.dll
+C:\Users\Anthony\Desktop\HTML\HTML Project\HTML Project\bin\HTML Project.pdb
+C:\Users\Anthony\Desktop\HTML\HTML Project\HTML Project\obj\Debug\HTML Project.dll
+C:\Users\Anthony\Desktop\HTML\HTML Project\HTML Project\obj\Debug\HTML Project.pdb
+C:\Users\Anthony\Desktop\HTML5 Search To Play Updated\HTML Project\HTML Project\bin\HTML Project.dll
+C:\Users\Anthony\Desktop\HTML5 Search To Play Updated\HTML Project\HTML Project\bin\HTML Project.pdb
+C:\Users\Anthony\Desktop\HTML5 Search To Play Updated\HTML Project\HTML Project\obj\Debug\HTML Project.dll
+C:\Users\Anthony\Desktop\HTML5 Search To Play Updated\HTML Project\HTML Project\obj\Debug\HTML Project.pdb

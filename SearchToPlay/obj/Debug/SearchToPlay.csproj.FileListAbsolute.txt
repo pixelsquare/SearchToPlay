@@ -1,0 +1,4 @@
+C:\Users\Anthony\Projects\SearchToPlay\SearchToPlay\bin\SearchToPlay.dll
+C:\Users\Anthony\Projects\SearchToPlay\SearchToPlay\bin\SearchToPlay.pdb
+C:\Users\Anthony\Projects\SearchToPlay\SearchToPlay\obj\Debug\SearchToPlay.dll
+C:\Users\Anthony\Projects\SearchToPlay\SearchToPlay\obj\Debug\SearchToPlay.pdb

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{836FE9B2-9339-4B4A-93F3-54AC71E5EC70}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SearchToPlay</RootNamespace>
+    <AssemblyName>SearchToPlay</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="audio\Snowflakes.wav" />
+    <Content Include="css\style.css" />
+    <Content Include="images\arcade_button.png" />
+    <Content Include="images\bg1.png" />
+    <Content Include="images\bg2.png" />
+    <Content Include="images\bg3.png" />
+    <Content Include="images\bg3mono.png" />
+    <Content Include="images\bg4.png" />
+    <Content Include="images\bg4mono.png" />
+    <Content Include="images\BW\bw_ball.png" />
+    <Content Include="images\BW\bw_balloon.png" />
+    <Content Include="images\BW\bw_basketball.png" />
+    <Content Include="images\BW\bw_billiardstick.png" />
+    <Content Include="images\BW\bw_books1.png" />
+    <Content Include="images\BW\bw_books2.png" />
+    <Content Include="images\BW\bw_bouquet.png" />
+    <Content Include="images\BW\bw_card.png" />
+    <Content Include="images\BW\bw_card1.png" />
+    <Content Include="images\BW\bw_clock.png" />
+    <Content Include="images\BW\bw_coins.png" />
+    <Content Include="images\BW\bw_crowbar.png" />
+    <Content Include="images\BW\bw_crumpledpaper.png" />
+    <Content Include="images\BW\bw_dominos.png" />
+    <Content Include="images\BW\bw_dominos1.png" />
+    <Content Include="images\BW\bw_electricfan.png" />
+    <Content Include="images\BW\bw_happybirthday.png" />
+    <Content Include="images\BW\bw_magazine.png" />
+    <Content Include="images\BW\bw_necklace.png" />
+    <Content Include="images\BW\bw_necktie.png" />
+    <Content Include="images\BW\bw_notes.png" />
+    <Content Include="images\BW\bw_openbook.png" />
+    <Content Include="images\BW\bw_pencil.png" />
+    <Content Include="images\BW\bw_pizza.png" />
+    <Content Include="images\BW\bw_schoolsupplies.png" />
+    <Content Include="images\BW\bw_schoolsupplies1.png" />
+    <Content Include="images\BW\bw_shapetoys.png" />
+    <Content Include="images\BW\bw_shelf.png" />
+    <Content Include="images\BW\bw_smallbox.png" />
+    <Content Include="images\BW\bw_sofa.png" />
+    <Content Include="images\BW\bw_stair.png" />
+    <Content Include="images\BW\bw_table.png" />
+    <Content Include="images\BW\bw_teddybear.png" />
+    <Content Include="images\BW\bw_telephone.png" />
+    <Content Include="images\BW\bw_towel.png" />
+    <Content Include="images\BW\bw_towelstand.png" />
+    <Content Include="images\BW\bw_toys.png" />
+    <Content Include="images\BW\bw_triangle.png" />
+    <Content Include="images\Colored\ball.png" />
+    <Content Include="images\Colored\balloon.png" />
+    <Content Include="images\Colored\basketball.png" />
+    <Content Include="images\Colored\billiardstick.png" />
+    <Content Include="images\Colored\books1.png" />
+    <Content Include="images\Colored\books2.png" />
+    <Content Include="images\Colored\bouquet.png" />
+    <Content Include="images\Colored\card.png" />
+    <Content Include="images\Colored\card1.png" />
+    <Content Include="images\Colored\clock.png" />
+    <Content Include="images\Colored\coins.png" />
+    <Content Include="images\Colored\crowbar.png" />
+    <Content Include="images\Colored\crumpledpaper.png" />
+    <Content Include="images\Colored\dominos.png" />
+    <Content Include="images\Colored\dominos1.png" />
+    <Content Include="images\Colored\electricfan.png" />
+    <Content Include="images\Colored\happybirthday.png" />
+    <Content Include="images\Colored\magazine.png" />
+    <Content Include="images\Colored\necklace.png" />
+    <Content Include="images\Colored\necktie.png" />
+    <Content Include="images\Colored\notes.png" />
+    <Content Include="images\Colored\openbook.png" />
+    <Content Include="images\Colored\pencil.png" />
+    <Content Include="images\Colored\pizza.png" />
+    <Content Include="images\Colored\schoolsupplies.PNG" />
+    <Content Include="images\Colored\schoolsupplies1.png" />
+    <Content Include="images\Colored\shapetoys.png" />
+    <Content Include="images\Colored\shelf.png" />
+    <Content Include="images\Colored\smallbox.png" />
+    <Content Include="images\Colored\sofa.png" />
+    <Content Include="images\Colored\stair.png" />
+    <Content Include="images\Colored\table.png" />
+    <Content Include="images\Colored\teddybear.png" />
+    <Content Include="images\Colored\telephone.png" />
+    <Content Include="images\Colored\towel.png" />
+    <Content Include="images\Colored\towelstand.png" />
+    <Content Include="images\Colored\toys.png" />
+    <Content Include="images\Colored\triangle.png" />
+    <Content Include="images\credits_button.png" />
+    <Content Include="images\endBG.png" />
+    <Content Include="images\gameEndBG.png" />
+    <Content Include="images\highscore_button.png" />
+    <Content Include="images\home_button.png" />
+    <Content Include="images\htmlBG.png" />
+    <Content Include="images\menu_bg.png" />
+    <Content Include="images\mono.png" />
+    <Content Include="images\set1.png" />
+    <Content Include="images\submitbutton.png" />
+    <Content Include="images\time_trial_button.png" />
+    <Content Include="images\toArcadeButton.png" />
+    <Content Include="images\toTimeTrialButton.png" />
+    <Content Include="js\game.js" />
+    <Content Include="Version Number.txt" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connection.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2325</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,63 @@
+﻿body 
+{
+	background-color: #ECECEC;
+}
+
+p
+{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+canvas 
+{
+	z-index: 1;
+	margin: 0 auto;
+	position: fixed;
+	border-style: dashed;
+	background-color: #DDDDDD;
+}
+
+table#submitTable
+{
+	font-family:Gisha;
+	border-style: groove;
+	border-color: #CCCCCC;
+}
+
+div#submitDiv 
+{
+	display: none;
+	background-color: #CCCCCC;
+	z-index: 2;
+	position: fixed;
+	margin: 0 auto;
+	padding: 5px;
+	margin-left: 170px;
+	margin-top: 240px;
+}
+
+#wrapper
+{
+	background-image: url("https://dl.dropboxusercontent.com/u/208847670/images/htmlBG.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+
+}
+
+div.bg
+{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	padding: 5px;
+}
